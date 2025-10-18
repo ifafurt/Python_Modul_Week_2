@@ -2,23 +2,6 @@ from boek_transacties import *
 from leden_transacties import *
 from tijd import *
 
-def hoofd_menu():
-    while True:
-        print("\n=== KÜTÜPHANE SİSTEMİ ===")
-        print("1. Üyelik işlemleri")
-        print("2. Kitap işlemleri")
-        print("3. Çıkış")
-        sec = input("Seçiminiz: ")
-        if sec == "1":
-            leden_menu()
-        elif sec == "2":
-            boeken_menu()
-        elif sec == "3":
-            print("Programdan çıkılıyor...")
-            break
-        else:
-            print("Geçersiz seçim.")
-
 def leden_menu():
     while True:
         print("\n--- ÜYELİK İŞLEMLERİ ---")
@@ -75,7 +58,22 @@ def boeken_menu():
         else:
             print("Geçersiz seçim.")
 
-
+def hoofd_menu():
+    while True:
+        print("\n=== KÜTÜPHANE SİSTEMİ ===")
+        print("1. Üyelik işlemleri")
+        print("2. Kitap işlemleri")
+        print("3. Çıkış")
+        sec = input("Seçiminiz: ")
+        if sec == "1":
+            leden_menu()
+        elif sec == "2":
+            boeken_menu()
+        elif sec == "3":
+            print("Programdan çıkılıyor...")
+            break
+        else:
+            print("Geçersiz seçim.")
 
 if __name__ == "__main__":
     hoofd_menu()

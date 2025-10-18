@@ -24,5 +24,31 @@
         },
         "alis_tarihi": "2025-10-03 14:00:00",
         "iade_tarihi": "2025-10-17 14:00:00"
+    },
+    {
+        "uye_id": "10006",
+        "uye": "Frodo Baggins",
+        "kitap": {
+            "baslik": "The Lord of the Rings: The Fellowship of the Ring",
+            "yazar": "J.R.R. Tolkien",
+            "yil": 2001,
+            "tur": "Fantasy",
+            "barkod": "1008"
+        },
+        "alis_tarihi": "2025-10-06 12:00:00",
+        "iade_tarihi": "2025-10-20 12:00:00"
+    },
+    {
+        "uye_id": "10001",
+        "uye": "Luke Skywalker",
+        "kitap": {
+            "baslik": "Star Wars: A New Hope",
+            "yazar": "George Lucas",
+            "yil": 1977,
+            "tur": "Sciencefiction",
+            "barkod": "1001"
+        },
+        "alis_tarihi": "2025-10-18 21:25:55",
+        "iade_tarihi": "2025-11-01 21:25:55"
     }
 ]

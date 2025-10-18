@@ -63,17 +63,10 @@
         "barkod": "1009"
     },
     {
-        "baslik": "The Lord of the Rings: The Return of the King",
-        "yazar": "J.R.R. Tolkien",
-        "yil": 2003,
-        "tur": "Fantasy",
-        "barkod": "1010"
-    },
-    {
-        "baslik": "ince memet",
-        "yazar": "kemal tahir",
-        "yil": 1990,
-        "tur": "roman",
-        "barkod": "1011"
+        "barkod": "5656",
+        "baslik": "savasci",
+        "yil": "2222",
+        "yazar": "dogan",
+        "tur": "kisisel gelisim"
     }
 ]
